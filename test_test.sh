@@ -1,0 +1,16 @@
+nohup yolo task=detect mode=val name=test-endovis-v8n-42 model=runs/detect/endovis-v8n-42/weights/best.pt data=datasets/endovis_test.yaml device=0 > test-endovis-v8n-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-spd-42 model=runs/detect/endovis-v8n-spd-42/weights/best.pt data=datasets/endovis_test.yaml device=0 > test-endovis-v8n-spd-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-rmt1-p1-42 model=runs/detect/endovis-v8n-rmt1-p1-42/weights/best.pt data=datasets/endovis_test.yaml device=0 > test-endovis-v8n-rmt1-p1-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-rmt1-p2-42 model=runs/detect/endovis-v8n-rmt1-p2-42/weights/best.pt data=datasets/endovis_test.yaml device=0 > test-endovis-v8n-rmt1-p2-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-rmt1-p5-42 model=runs/detect/endovis-v8n-rmt1-p5-42/weights/best.pt data=datasets/endovis_test.yaml device=2 > test-endovis-v8n-rmt1-p5-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-rmt2-p1-42 model=runs/detect/endovis-v8n-rmt2-p1-42/weights/best.pt data=datasets/endovis_test.yaml device=2 > test-endovis-v8n-rmt2-p1-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-rmt2-p2-42 model=runs/detect/endovis-v8n-rmt2-p2-42/weights/best.pt data=datasets/endovis_test.yaml device=2 > test-endovis-v8n-rmt2-p2-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-rmt2-p5-42 model=runs/detect/endovis-v8n-rmt2-p5-42/weights/best.pt data=datasets/endovis_test.yaml device=2 > test-endovis-v8n-rmt2-p5-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-rmt3-p1-42 model=runs/detect/endovis-v8n-rmt3-p1-42/weights/best.pt data=datasets/endovis_test.yaml device=3 > test-endovis-v8n-rmt3-p1-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-rmt3-p2-42 model=runs/detect/endovis-v8n-rmt3-p2-42/weights/best.pt data=datasets/endovis_test.yaml device=3 > test-endovis-v8n-rmt3-p2-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-rmt3-p5-42 model=runs/detect/endovis-v8n-rmt3-p5-42/weights/best.pt data=datasets/endovis_test.yaml device=3 > test-endovis-v8n-rmt3-p5-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-mup-42 model=runs/detect/endovis-v8n-mup-42/weights/best.pt data=datasets/endovis_test.yaml device=3 > test-endovis-v8n-mup-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-mu-42 model=runs/detect/endovis-v8n-mu-42/weights/best.pt data=datasets/endovis_test.yaml device=4 > test-endovis-v8n-mu-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-cf-p1-42 model=runs/detect/endovis-v8n-cf-p1-42/weights/best.pt data=datasets/endovis_test.yaml device=4 > test-endovis-v8n-cf-p1-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-cf-p2-42 model=runs/detect/endovis-v8n-cf-p2-42/weights/best.pt data=datasets/endovis_test.yaml device=4 > test-endovis-v8n-cf-p2-42.log 2>&1 &
+nohup yolo task=detect mode=val name=test-endovis-v8n-cf-p5-42 model=runs/detect/endovis-v8n-cf-p5-42/weights/best.pt data=datasets/endovis_test.yaml device=4 > test-endovis-v8n-cf-p5-42.log 2>&1 &

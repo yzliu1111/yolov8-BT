@@ -1,0 +1,15 @@
+# nohup python -u train.py --cfg='v8n' > endovis-v8n-1.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-spd' > endovis-v8n-spd-42.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-mu' > endovis-v8n-mu.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-rmt1-p1' > endovis-v8n-rmt1-p1-42.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-rmt1-p2' > endovis-v8n-rmt1-p2-42.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-rmt1-p5' > endovis-v8n-rmt1-p5-42.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-rmt2-p1' > endovis-v8n-rmt2-p1-42.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-rmt2-p2' > endovis-v8n-rmt2-p2-42.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-rmt2-p5' > endovis-v8n-rmt2-p5-42.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-rmt3-p1' > endovis-v8n-rmt3-p1-42.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-rmt3-p2' > endovis-v8n-rmt3-p2-42.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-rmt3-p5' > endovis-v8n-rmt3-p5-42.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-cf-p1' > endovis-v8n-cf-p1-a.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-cf-p2' > endovis-v8n-cf-p2.log 2>&1 &
+# nohup python -u train.py --cfg='v8n-cf-p5' > endovis-v8n-cf-p5.log 2>&1 &
